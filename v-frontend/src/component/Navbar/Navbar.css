@@ -1,0 +1,19 @@
+.container {
+max-width: 960px;
+
+
+}
+
+.pricing-header {
+max-width: 800px;
+color: black;
+
+
+}
+
+.active-class-style {
+    color: black;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
