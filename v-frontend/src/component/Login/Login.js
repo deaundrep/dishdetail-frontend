@@ -30,7 +30,7 @@ export class Login extends Component {
         event.preventDefault();
 
         try {
-            let result = await axios.post("http://localhost:3003/users/login", {
+            let result = await axios.post("/api/users/login", {
                 email: this.state.email,
                 password: this.state.password,
             });

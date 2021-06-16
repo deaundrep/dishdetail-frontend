@@ -30,7 +30,7 @@ export class Profile extends Component {
             let decodedJwtToken = jwtDecode(getJwtTokenFromStorage);
 
             let success = await axios.put(
-                "http://localhost:3003/users/update-user-password",
+                "/api/users/update-user-password",
                 {
                     email: decodedJwtToken.email,
                     oldPassword: this.state.oldPassword,

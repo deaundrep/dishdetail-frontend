@@ -103,7 +103,7 @@ export class SignUp extends Component {
             return;
         }
         try {
-            let result = await axios.post("http://localhost:3003/users/sign-up", {
+            let result = await axios.post("/api/users/sign-up", {
                 firstName,
                 lastName,
                 email,
